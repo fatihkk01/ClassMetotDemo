@@ -37,12 +37,16 @@ namespace ClassMetotDemo
             musteriler.Add(m3);
 
             
+
+            //LİSTELEME
             musteriManager.MusteriListele(musteriler);
 
+            //EKLEME
             musteriManager.MusteriEkle(ref musteriler, m4);
 
             musteriManager.MusteriListele(musteriler);
 
+            //SİLME
             musteriManager.MusteriSil(ref musteriler, 1);
 
             musteriManager.MusteriListele(musteriler);
